@@ -10,17 +10,19 @@ function About() {
         initial={{ opacity: 0, translateY: 50 }}
         animate={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 0.5 }}
-        className="flex flex-col justify-between w-full sm:w-full h-1/3 md:w-6/12 items-center"
+        className="flex flex-col justify-between w-full sm:w-full h-1/3 items-center"
       >
-        <h1 className=" text-center me md:text-6xl text-4xl">Hi, I'm Aladin</h1>
-        <p className="text-center w-9/12 sm:w-full my-8 text-md sm:text-xl description">
-          Aladin is a creator who enjoy his front end superpowers by <br />
-          solving problems and making cool websites.
+        <h1 className=" text-center me sm:text-5xl lg:text-6xl text-4xl">
+          Hi, I'm Aladin
+        </h1>
+        <p className="text-center w-full p-10 sm:w-full my-8 sm:my-8 md:w-5/6 lg:w-3/4 xl:w-2/4 2xl:w-2/5 text-md sm:text-xl xl:text-xl description">
+          Aladin is a creator who enjoy his front end superpowers by solving
+          problems and making cool websites.
         </p>
-        <div className="flex w-full justify-center h-12 items-center">
+        <div className="flex w-full justify-center h-12  items-center">
           <a
             href="mailto:dinndev@gmail.com"
-            className="border-slate-500 border mr-9 rounded min-w-lg h-3/4 sm:h-5/6  contact-btn text-xs p-2 flex justify-center items-center text-gray-500"
+            className="border-slate-500 border mr-9 rounded min-w-lg h-10  contact-btn text-xs p-2 flex justify-center items-center text-gray-500"
           >
             Contact me
             <span className="ml-5">
