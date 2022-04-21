@@ -17,9 +17,9 @@ function Portfolio() {
       </motion.h1>
       <motion.ul
         layout
-        className="h-24 grid md:grid-cols-5 sm:w-3/4 grid-cols-1 sm:grid-cols-2 md:w-8/12 lg:w-3/6 xl:w-5/12 w-9/12 gap-6"
+        className=" grid md:grid-cols-5 sm:w-3/4 grid-cols-1 sm:grid-cols-2 md:w-8/12 lg:w-3/6 xl:w-5/12  w-9/12 gap-6"
       >
-        {projects.map(({ name, description, grid, image, position }, i) => (
+        {projects.map(({ name, description, grid, position, link }, i) => (
           <Card
             index={i}
             grid={grid}
@@ -27,8 +27,8 @@ function Portfolio() {
             name={name}
             description={description}
             key={uuidv4()}
-            image={image}
             position={position}
+            link={link}
           />
         ))}
       </motion.ul>

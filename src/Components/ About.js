@@ -16,8 +16,8 @@ function About() {
           Hi, I'm Aladin
         </h1>
         <p className="text-center w-full p-10 sm:w-full my-8 sm:my-8 md:w-5/6 lg:w-3/4 xl:w-2/4 2xl:w-2/5 text-md sm:text-xl xl:text-xl description">
-          Aladin is a creator who enjoy his front end superpowers by solving
-          problems and making cool websites.
+          Aladin is a creator who enjoy his front end superpowers by making cool
+          websites and fixing problems.
         </p>
         <div className="flex w-full justify-center h-12  items-center">
           <a

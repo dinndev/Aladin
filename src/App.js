@@ -2,6 +2,8 @@ import React from "react";
 import About from "./Components/ About";
 import Portfolio from "./Components/Portfolio";
 import { Link } from "react-scroll";
+import Github from "./Svg/Github";
+import Codewars from "./Svg/Codewars";
 const App = () => {
   return (
     <>
@@ -24,9 +26,13 @@ const App = () => {
 
         <About />
       </div>
-      <div className="w-screen flex justify-center items-center flex-col h-screen">
+      <div className="w-screen flex justify-center items-center flex-col">
         <Portfolio />
       </div>
+      <footer className="bg-white w-full flex justify-center items-center p-7 h-40 mt-10">
+        <Github />
+        <Codewars />
+      </footer>
     </>
   );
 };
