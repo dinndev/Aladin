@@ -1,8 +1,3 @@
-import playingTrackImg from "../images/Playing.png";
-import ExpenceList from "../images/List.png";
-import ProfileExpence from "../images/Profile.png";
-import Albums from "../images/Albums.png";
-
 export const projects = [
   {
     name: "Moonbank",

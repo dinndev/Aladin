@@ -1,6 +1,6 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import Modal from "./Modal";
+
 import { useState } from "react";
 import { projects } from "./files";
 
