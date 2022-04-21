@@ -1,19 +1,15 @@
 {
   "files": {
-    "main.css": "/Aladin/static/css/main.68bb1319.css",
-    "main.js": "/Aladin/static/js/main.26cd4a09.js",
+    "main.css": "/Aladin/static/css/main.49d27c69.css",
+    "main.js": "/Aladin/static/js/main.d4ad3a81.js",
     "static/js/787.16f10636.chunk.js": "/Aladin/static/js/787.16f10636.chunk.js",
-    "static/media/Albums.png": "/Aladin/static/media/Albums.2ecee3fbbdf52d022d0a.png",
-    "static/media/Playing.png": "/Aladin/static/media/Playing.c3a2a7c70dcbbcd80a68.png",
-    "static/media/Profile.png": "/Aladin/static/media/Profile.d00891f971c472605366.png",
-    "static/media/List.png": "/Aladin/static/media/List.e85538466729b6dab1b9.png",
     "index.html": "/Aladin/index.html",
-    "main.68bb1319.css.map": "/Aladin/static/css/main.68bb1319.css.map",
-    "main.26cd4a09.js.map": "/Aladin/static/js/main.26cd4a09.js.map",
+    "main.49d27c69.css.map": "/Aladin/static/css/main.49d27c69.css.map",
+    "main.d4ad3a81.js.map": "/Aladin/static/js/main.d4ad3a81.js.map",
     "787.16f10636.chunk.js.map": "/Aladin/static/js/787.16f10636.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68bb1319.css",
-    "static/js/main.26cd4a09.js"
+    "static/css/main.49d27c69.css",
+    "static/js/main.d4ad3a81.js"
   ]
 }
